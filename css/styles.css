@@ -2,7 +2,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.card-img-overlay{
+#part1{
     padding: 17% 16% 17%;
     margin-left:29%;
 }
@@ -12,6 +12,11 @@ body{
 .ABOUT_US>h1{
     text-align: center; 
 }
+#part3{
+    text-align: center;
+    margin-top: 5%;
+}
+
 @media (max-width: 575.98px) {
     .table-responsive-sm {
       display: block;
