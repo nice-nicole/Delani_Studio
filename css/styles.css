@@ -9,12 +9,16 @@ body{
 #logo{
     height:32%;
 }
-.ABOUT_US>h1{
-    text-align: center; 
+.aboutUs, #part3{
+    text-align: center;
 }
 #part3{
-    text-align: center;
     margin-top: 5%;
+}
+.aboutUs{
+    /* padding: 4%; */
+    margin:6%;
+    text-align: center;
 }
 
 @media (max-width: 575.98px) {
