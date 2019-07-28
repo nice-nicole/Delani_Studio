@@ -16,11 +16,25 @@ body{
     margin-top: 5%;
 }
 .aboutUs{
-    /* padding: 4%; */
-    margin:6%;
+    margin:5%;
     text-align: center;
+    width:85%;
+}
+.whatWeDo{
+    text-align: center;
+    margin:5%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+
 }
 
+#designText, #devText, #prodText{
+    display: none;
+    text-align: center;
+    /* width: 30%; */
+}
 @media (max-width: 575.98px) {
     .table-responsive-sm {
       display: block;
