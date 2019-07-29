@@ -7,6 +7,7 @@ DELANI STUDIO is an application built using html, css and jQuery concepts, its p
 * This is a great place
 * With any device and access to the internet you can view our page.
 * Use any browser(google chrome, safari);
+* If you encounter problems while trying to view the page, refresh it, if the problem persist, contact us.
 ## Technologies Used
 * HTML
 * CSS
