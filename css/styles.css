@@ -21,20 +21,50 @@ body{
     width:85%;
 }
 .whatWeDo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
     text-align: center;
     margin:5%;
 }
-.row{
-    display: flex;
-    flex-direction: row;
-
-}
-
 #designText, #devText, #prodText{
     display: none;
     text-align: center;
-    /* width: 30%; */
 }
+.portfolio{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 1%;
+  margin:5% 5% 5%;
+}
+
+#portfo{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin:1%;
+}
+#portfo2{
+  display: flex;
+  align-items: center;
+  margin:1%;
+}
+#w1Text{
+  display: none;
+  text-align: center;
+  margin: 1% 2% 1% 2%;
+}
+#contact{
+  align-items: center;
+  /* margin:5%; */
+}
+#contactForm{
+  padding: 5%;
+  margin: 5%;
+}
+
 @media (max-width: 575.98px) {
     .table-responsive-sm {
       display: block;
