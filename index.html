@@ -12,17 +12,18 @@
         <script src="js/script.js"></script>
     </head>
     <body>
-
-            <div class="card text-white">
-                <img width=100% src="assets/backgrounds/h_img.jpg">
-                <div class="card-img-overlay" id="part1">
-                    <img id= "logo" src="assets/logo/logo.png">
-                    <h1>WELCOME</h1>
-                    <h1>TO DELANI STUDIO</h1>
-                    <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-                    <img src="assets/mouse_click.png">
+            <div class="row">
+                <div class="card text-white col-md-12">
+                    <img width=100% src="assets/backgrounds/h_img.jpg">
+                    <div class="card-img-overlay" id="part1">
+                        <img id= "logo" src="assets/logo/logo.png">
+                        <h1>WELCOME</h1>
+                        <h1>TO DELANI STUDIO</h1>
+                        <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+                        <img src="assets/mouse_click.png">
+                    </div>
                 </div>
-            </div>
+            </div>  
 
             <div class="aboutUs">
                 <h3>ABOUT US</h3>
@@ -50,7 +51,7 @@
             <div class="whatWeDo">
                 <h3>WHAT WE DO</h3>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-md-4">
                         <img id="design" src="assets/services_icons/design_icon.png">
                         <h6 style="font-weight: bold;">DESIGN</h6>
                         <div id="designText">
@@ -62,7 +63,7 @@
                             </p>
                         </div>                    
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4">
                         <img id="dev" src="assets/services_icons/dev_icon.png">
                         <h6 style="font-weight: bold;">DEVELOPMENT</h6>
                         <div id="devText">
@@ -74,7 +75,7 @@
                         </div>                    
                     </div>
 
-                        <div class="col-4">
+                        <div class="col-md-4">
                             <img id="product" src="assets/services_icons/product_icon.png">
                             <h6 style="font-weight: bold;">PRODUCT MANAGEMENT</h6>
                             <div id="prodText">
@@ -92,59 +93,60 @@
             <div class="portfolio">
                 <h3>PORTFOLIO</h3>
                 <div class="row" id="portfo">
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <img id="work1" width="100%" style="margin:1%;" src="assets/portfolio/work1.jpg"> 
                         <p id="w1Text">Photoshop Project</p>                  
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <img id="work2" width="100%" style="margin:1%;" src="assets/portfolio/work2.jpg">  
                         <p id="w2Text">Windows8 background</p>                
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <img id="work3" width="100%" style="margin:1%;" src="assets/portfolio/work3.jpg"> 
                         <p id="w3Text">Mighty Ontario Security</p>              
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <img id="work4" width="100%" style="margin:1%;" src="assets/portfolio/work4.jpg">  
                         <p id="w4Text">Black Project</p>             
                     </div>
                 </div>    
                 <div class="row" id="portfo2">    
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <img id="work5" width="100%" style="margin:1%;" src="assets/portfolio/work5.jpg">
                         <p id="w5Text">web app Project</p>                   
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <img id="work6" width="100%" style="margin:1%;" src="assets/portfolio/work6.jpg">  
                         <p id="w6Text">medical tool Project</p>                
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <img id="work7" width="100%" style="margin:1%;" src="assets/portfolio/work7.jpg"> 
                         <p id="w7Text">Burned Lobo Mock-up</p>              
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <img id="work8" width="100%" style="margin:1%;" src="assets/portfolio/work8.jpg">       
                         <p id="w8Text">Giraffe Restaurant</p>        
                     </div>
                 </div>
             </div>   
             
-            <div class="card text-white" id="contact">
+            <div class="card text-white col-md-12">
                 <img  width=100% src="assets/backgrounds/c_image.jpg">
-                <div class="card-img-overlay" id="c_part">
-                    <h3>CONTACT US</h3>
-                    <form id="contactForm">
-                        <div class="row">
-                            <div class="col-4">
-                                <input type="text"  class="form-control" placeholder="First name" style="background: transparent;">
+                <div class="card-img-overlay">
+                    <form id="frm">
+                        <h3 id="contact">CONTACT US</h3>
+                        <div class="row justify-content-center">
+                            <div class="col-md-4" style="margin-bottom:2%;">
+                                <input type="text"  class="form-control" placeholder="Name.." style="background: transparent;">
                             </div>
-                            <div class="col-4">
-                                <input type="text" class="form-control" placeholder="Last name"style="background: transparent;">
+                            <div class="col-md-4" style="margin-bottom:2%;">
+                                <input type="text" class="form-control" placeholder="Email.."style="background: transparent;">
+                            </div>
+                            <div class="col-md-8">
+                                <textarea rows="6" cols="20" class="form-control" placeholder="Your message here..."style="background: transparent;"></textarea>
                             </div>
                         </div>
-                        <div class="col-8">
-                            <input type="textarea" class="form-control" placeholder="Your message here..."style="background: transparent;">
-                        </div>
+                        
                     </form>
                 </div>
             </div>

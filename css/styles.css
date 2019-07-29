@@ -51,16 +51,14 @@ body{
   align-items: center;
   margin:1%;
 }
-
 #contact{
   align-items: center;
   /* margin:5%; */
 }
-#contactForm{
-  padding: 5%;
-  margin: 5%;
+#contact{
+  text-align: center;
 }
-.col-3>img:hover{
+.col-md-3>img:hover{
   border: 1px solid white;
   background: white;
   opacity: 0.4;
@@ -71,6 +69,9 @@ body{
   margin-top:-20%;
   color: black;
   font-weight: bold;
+}
+.form-control::placeholder{
+  color: white;
 }
 
 @media (max-width: 575.98px) {
