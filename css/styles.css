@@ -51,11 +51,7 @@ body{
   align-items: center;
   margin:1%;
 }
-#w1Text{
-  display: none;
-  text-align: center;
-  margin: 1% 2% 1% 2%;
-}
+
 #contact{
   align-items: center;
   /* margin:5%; */
@@ -63,6 +59,18 @@ body{
 #contactForm{
   padding: 5%;
   margin: 5%;
+}
+.col-3>img:hover{
+  border: 1px solid white;
+  background: white;
+  opacity: 0.4;
+}
+#w1Text,#w2Text,#w3Text,#w4Text,#w5Text,#w6Text,#w7Text,#w8Text{
+  display: none;
+  text-align: center;
+  margin-top:-20%;
+  color: black;
+  font-weight: bold;
 }
 
 @media (max-width: 575.98px) {
