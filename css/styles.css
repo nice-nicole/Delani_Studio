@@ -1,35 +1,35 @@
 body{
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #part1{
-    padding: 17% 16% 17%;
-    margin-left:29%;
+  padding: 17% 16% 17%;
+  margin-left:29%;
 }
 #logo{
-    height:32%;
+  height:32%;
 }
 .aboutUs, #part3{
-    text-align: center;
+  text-align: center;
 }
 #part3{
-    margin-top: 5%;
+  margin-top: 5%;
 }
 .aboutUs{
-    margin:5%;
-    text-align: center;
-    width:85%;
+  margin:5%;
+  text-align: center;
+  width:85%;
 }
 .whatWeDo{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-    text-align: center;
-    margin:5%;
+  text-align: center;
+  margin:5%;
 }
 #designText, #devText, #prodText{
-    display: none;
-    text-align: center;
+  display: none;
+  text-align: center;
 }
 .portfolio{
   display: flex;
@@ -53,7 +53,6 @@ body{
 }
 #contact{
   align-items: center;
-  /* margin:5%; */
 }
 #contact{
   text-align: center;
@@ -91,45 +90,3 @@ body{
 h3{
   font-weight: bold;
 }
-@media (max-width: 575.98px) {
-    .table-responsive-sm {
-      display: block;
-      width: 100%;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      -ms-overflow-style: -ms-autohiding-scrollbar;
-    }
-    .table-responsive-sm > .table-bordered {
-      border: 0;
-    }
-  }
-  
-  @media (max-width: 767.98px) {
-    .table-responsive-md {
-      display: block;
-      width: 100%;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      -ms-overflow-style: -ms-autohiding-scrollbar;
-    }
-    .table-responsive-md > .table-bordered {
-      border: 0;
-    }
-  }
-  
-  @media (max-width: 991.98px) {
-    .table-responsive-lg {
-      display: block;
-      width: 100%;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      -ms-overflow-style: -ms-autohiding-scrollbar;
-    }
-    @media (min-width: 1200px) {
-        .col-xl {
-          -ms-flex-preferred-size: 0;
-          flex-basis: 0;
-          -ms-flex-positive: 1;
-          flex-grow: 1;
-          max-width: 100%;
-        }
