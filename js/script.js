@@ -25,4 +25,36 @@ $(document).ready(function(){
         $("#prodText").hide();
     });
 
+    $("#work1").hover(function(){
+        $("#work1").fadeTo("slow", 0.10);
+
+    });
+    $("#work2").hover(function(){
+        $("#work2").fadeTo("slow", 0.10);
+
+    });
+    $("#work3").hover(function(){
+        $("#work3").fadeTo("slow", 0.10);
+
+    });
+    $("#work4").hover(function(){
+        $("#work4").fadeTo("slow", 0.10);
+
+    });
+    $("#work5").hover(function(){
+        $("#work5").fadeTo("slow", 0.10);
+
+    });
+    $("#work6").hover(function(){
+        $("#work6").fadeTo("slow", 0.10);
+
+    });
+    $("#work7").hover(function(){
+        $("#work7").fadeTo("slow", 0.10);
+
+    });
+    $("#work8").hover(function(){
+        $("#work8").fadeTo("slow", 0.10);
+
+    });
 });
